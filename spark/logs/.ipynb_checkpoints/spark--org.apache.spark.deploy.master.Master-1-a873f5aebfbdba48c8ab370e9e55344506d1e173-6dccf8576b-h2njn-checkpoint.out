@@ -1,0 +1,37 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /opt/spark-2.3.4-bin-hadoop2.7/conf/:/opt/spark-2.3.4-bin-hadoop2.7/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host a873f5aebfbdba48c8ab370e9e55344506d1e173-6dccf8576b-h2njn --port 7077 --webui-port 8080
+========================================
+2023-10-02 10:50:16 INFO  Master:2612 - Started daemon with process name: 2215@a873f5aebfbdba48c8ab370e9e55344506d1e173-6dccf8576b-h2njn
+2023-10-02 10:50:16 INFO  SignalUtils:54 - Registered signal handler for TERM
+2023-10-02 10:50:16 INFO  SignalUtils:54 - Registered signal handler for HUP
+2023-10-02 10:50:16 INFO  SignalUtils:54 - Registered signal handler for INT
+2023-10-02 10:50:17 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2023-10-02 10:50:18 INFO  SecurityManager:54 - Changing view acls to: root
+2023-10-02 10:50:18 INFO  SecurityManager:54 - Changing modify acls to: root
+2023-10-02 10:50:18 INFO  SecurityManager:54 - Changing view acls groups to: 
+2023-10-02 10:50:18 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2023-10-02 10:50:18 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2023-10-02 10:50:18 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2023-10-02 10:50:19 INFO  Master:54 - Starting Spark master at spark://a873f5aebfbdba48c8ab370e9e55344506d1e173-6dccf8576b-h2njn:7077
+2023-10-02 10:50:19 INFO  Master:54 - Running Spark version 2.3.4
+2023-10-02 10:50:19 INFO  log:192 - Logging initialized @4791ms
+2023-10-02 10:50:19 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2023-10-02 10:50:19 INFO  Server:419 - Started @4985ms
+2023-10-02 10:50:20 INFO  AbstractConnector:278 - Started ServerConnector@53af9ad1{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2023-10-02 10:50:20 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2cb45767{/app,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f90717c{/app/json,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@262c5e69{/,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@593912f9{/json,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@55ae9333{/static,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6eb0e24c{/app/kill,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3189da0f{/driver/kill,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://a873f5aebfbdba48c8ab370e9e55344506d1e173-6dccf8576b-h2njn:8080
+2023-10-02 10:50:20 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5e34b735{/,null,AVAILABLE}
+2023-10-02 10:50:20 INFO  AbstractConnector:278 - Started ServerConnector@24f58fd2{HTTP/1.1,[http/1.1]}{a873f5aebfbdba48c8ab370e9e55344506d1e173-6dccf8576b-h2njn:6066}
+2023-10-02 10:50:20 INFO  Server:419 - Started @5673ms
+2023-10-02 10:50:20 INFO  Utils:54 - Successfully started service on port 6066.
+2023-10-02 10:50:20 INFO  StandaloneRestServer:54 - Started REST server for submitting applications on port 6066
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@28955d4a{/metrics/master/json,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@615a7f2b{/metrics/applications/json,null,AVAILABLE,@Spark}
+2023-10-02 10:50:20 INFO  Master:54 - I have been elected leader! New state: ALIVE

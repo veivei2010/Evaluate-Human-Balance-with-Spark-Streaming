@@ -1,0 +1,29 @@
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------------------+---------+
+|               email|birthYear|
++--------------------+---------+
+|Angie.Khatib@test...|     1965|
+|Santosh.Staples@t...|     1961|
+|Jane.Staples@test...|     1960|
+| Sean.Olson@test.com|     1959|
+|Bobby.Staples@tes...|     1958|
+|Christina.Spencer...|     1955|
+|Ashley.Doshi@test...|     1954|
+| Lyn.Harris@test.com|     1952|
+|Trevor.Jefferson@...|     1950|
+|  Lyn.Davis@test.com|     1949|
+|   Chris.Wu@test.com|     1948|
+|David.Anderson@te...|     1947|
+|Santosh.Davis@tes...|     1945|
+|     Dan.Wu@test.com|     1944|
+|Angie.Mitra@test.com|     1943|
+|Santosh.Mitra@tes...|     1942|
+|Spencer.Jackson@t...|     1941|
+|Edward.Howard@tes...|     1940|
+|Spencer.Olson@tes...|     1939|
+|Jacob.Fibonnaci@t...|     1938|
++--------------------+---------+
+only showing top 20 rows
+
